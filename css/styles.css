@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    font-size: 1vmax;
+    font-family: 'Press Start 2P', cursive;
+    touch-action: manipulation;
+}
+
+a {
+    color: gray;
+}
+
+canvas {
+    border: 2px solid white;
+}
+
+aside {
+    background-color: black;
+    color: white;
+
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+
+    width: 20vw;
+    height: 100%;
+}
+
+section {
+    background-color: black;
+    color: white;
+
+    position: absolute;
+
+    top: 0px;
+    right: 0px;
+
+    width: 20vw;
+    height: 100%;
+}
+
+button, input {
+    background-color: #313842;
+    color: white;
+    border: 2px solid white;
+    margin: 2vh 5vw 2vh 5vw;
+    width: 10vw;
+    height: 5vh;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button:hover {
+    background-color: black;
+}
+
+input {
+    text-align: center;
+}
+
+input[type=number] {
+    background-color: white;
+    color: black;
+}
+
+label {
+    margin-left: 1vw;
+    font-size: inherit;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+#about {
+    position: absolute;
+    top: 0px;
+    left: 25vw;
+
+    width: 50vw;
+    height: 100%;
+
+    overflow-y: auto;
+    overflow-x: auto;
+
+    background-color: #414956; 
+    color: white;
+
+    box-sizing: border-box;
+    padding: 5px 1vw 0px 1vw;
+ 
+    font-family: 'Roboto Mono', monospace;
+}
+
+#settings {
+
+	border: 2px white solid;
+	padding-top: 2vh;
+
+
+	height: 50vh;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
