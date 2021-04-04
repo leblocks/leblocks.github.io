@@ -1,144 +1,62 @@
 <!doctype html>
-
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="lazy, eye, disease, amblyopia, condition, treatment, training, dihoptic, game, free, online">
+        <meta name="description" content="free online dihoptic blocks game">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.ico"  type="image/x-icon"> 
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="keywords" content="lazy, eye, disease, amblyopia, condition, treatment, training, dihoptic, game, free, online">
-    <meta name="description" content="free online dihoptic blocks game">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>lazy eye blocks</title>
-    <link rel="icon" href="tetrisgame_tetri_6955.ico"  type="image/x-icon"> 
-
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-    
-    <script src="js/hammer.min.js"></script>
-    <script src="js/jscolor.js"></script>
-    <script src="js/blocks.js"></script>
-
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
-
-</head>
+        <title>Lazy eye exercise tool</title>
 
 
 
-    <body class="body">
+    </head>
 
-	<aside> 
-	    <button type='button' onclick="startGame()">New game</button>
-	    <button id='pause' type='button' onclick="pauseGame()">Pause</button>
-	    <button type='button' onclick="settings()">Settings</button>
-	    <div id='settings' style='display: none'>
-		<label for='leftEye'>Falling blocks:</label>
-		<input id='leftEye' class="jscolor { position: 'right', borderColor: '#FFF', insetColor: '#FFF', backgroundColor: '#313842', onFineChange:'leftEyeColor(this)'}">
-		<label for='rightEye'>Ground blocks:</label>
-		<input id='rightEye' class="jscolor { position: 'right', borderColor: '#FFF', insetColor: '#FFF', backgroundColor: '#313842', onFineChange:'rightEyeColor(this)'}">
-		<label for='grid'>Grid:</label>
-		<input id='grid' class="jscolor { position: 'right', borderColor: '#FFF', insetColor: '#FFF', backgroundColor: '#313842', onFineChange:'gridColor(this)'}">
-		<label for='background'>Background:</label>
-		<input id='background' class="jscolor { position: 'right', borderColor: '#FFF', insetColor: '#FFF', backgroundColor: '#313842', onFineChange:'backgroundColor(this)'}">
-		<button type='button' onclick="saveColorSettings()">save</button>
-		<button type='button' onclick="loadColorSettings()">load</button>
-		<button type='button' onclick="toggleGrid()">grid</button>
-		<label for='col_count'>Column count:</label>
-		<input type="number" id="col_count" min="10" step="1" value="12">
-		<label for='row_count'>Row count:</label>
-		<input type="number" id="row_count" min="20" step="1" value="20">
-		<button type='button' onclick="set()">set</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="exercise.html">Exercise</a>
+            <a href="help.html">Help</a>
+            <a href="about.html">About</a>
+        </nav>
 
-	    </div>
+    <body>
+        <h1>The lazy eye exercise tool</h1>
 
-	    <button type='button' onclick="about()">About</button>
+This game is intended to help people with "Lazy eye" condition train their weaker eye. <a href='http://www.lazyeye.org'
+    target='_blank'>Amblyopia</a>, commonly known as lazy eye, is the eye condition noted by reduced vision not
+correctable by glasses or contact lenses and is not due to any eye disease. The brain, for some reason, does not fully
+acknowledge the images seen by the amblyopic eye. This almost always affects only one eye but may manifest with
+reduction of vision in both eyes. It is estimated that three percent of children under six have some form of amblyopia.
 
-	</aside>
+<h2>How does it work?</h2>
+Recent <a href='https://www.medicalnewstoday.com/articles/259547.php' target='_blank'>studies</a> have shown that
+playing blocks games in a dichoptic way (when the eyes see different images) requires information to be sent to both
+eyes, making them work cooperatively. By making both eyes cooperate, the amblyopic brain is able to relearn as a result
+of an increase in the level of plasticity in the brain.
 
-	<div id='about'>
-	    <center>
-		<h1>Lazy eye blocks</h1>
-	    </center>
-	    <h2>What is this?</h2>
-	    This game is intended to help people with "Lazy eye" condition train their weaker eye. <a href='http://www.lazyeye.org' target='_blank'>Amblyopia</a>, commonly known as lazy eye, is the eye condition noted by reduced vision not correctable by glasses or contact lenses and is not due to any eye disease. The brain, for some reason, does not fully acknowledge the images seen by the amblyopic eye. This almost always affects only one eye but may manifest with reduction of vision in both eyes. It is estimated that three percent of children under six have some form of amblyopia.
-	    <h2>How does this work?</h2>
-	    Recent <a href='https://www.medicalnewstoday.com/articles/259547.php' target='_blank'>studies</a> have shown that playing blocks games in a dihoptic way (when eyes are seeing different images) requires information to be sent to both eyes, making them work cooperatively. By making both eyes cooperate, the amblyopic brain is able to relearn as a result of an increase in the level of plasticity in the brain. 
-	    <h2>How to use?</h2>
+<h2>How to use it?</h2>
+Before you begin, consult with your eye doctor
 
-	    Before you begin, consult with your eye doctor
+<h4>Prerequisites</h4>
+<ul>
+    <li> You will need <a href='https://en.wikipedia.org/wiki/Anaglyph_3D#/media/File:Anaglyph_glasses.png'
+            target='_blank'>anaglyph glasses</a>. You can buy them almost everywhere on the internet (try aliexpress,
+        ebay or amazon)
+    </li>
+    <li>For a productive session you'll have to configure colors accurately - so that your eyes will be working in a "dichoptic" way.
+        way. Check out <a href="help.html">help</a> page</li>
+</ul>
 
-	    <h3>Before you start</h3>
-	    You will need <a href='https://en.wikipedia.org/wiki/Anaglyph_3D#/media/File:Anaglyph_glasses.png' target='_blank'>anaglyph glasses</a> you don't need to have exactly red\blue glasses, colors are adjustable in this game. You can buy them almost everywhere on the internet (try aliexpress, ebay or amazon) 
-
-	    <h3>Instructions</h3>
-
-	    <h4>General info:</h4>
-	    <ol>
-		    <li>It is recommended (check this with your eye doctor) to play the game from 20 to 60 minutes a day in order to achieve some noticeable effect. It is possible to split this time into two or three sessions a day</li>
-		    <li>Don't forget to rest and give your brain time to adapt</li>
-		    <li>It is easier to start with a smaller screen first. The number of rows and columns of game field is <a href="index.html#AS">adjustable</a>, so you can play on various kinds of screens</li>
-		    <li>If you feel it is too easy or too hard for you, you can try switching colors between your healthy and your lazy eye</li>
-	    </ol>
-
-	    <h4>Color setup:</h4>
-	    <ol>
-		    <li>Click 'settings' button. The settings menu will open</li>
-		    <li>Put up your anaglyph glasses</li>
-		    <li>Click 'New game' button, now you should see game field with first falling block (by default it will be in red color)</li>
-		    <li>Press space to drop it, now you should see first dropped block (ground block) it will be in blue color by default</li>
-		    <li>Click 'Pause' or press 'p', and you will be able to adjust colors</li>
-		    <li>Click on 'falling blocks' color picker (white rectangle under 'Falling blocks color:' label) you will see colorpicker, Once you clicked and changed color of colorpicker the color of falling block will immediately start to change. Now, close your healthy eye and try to adjust the color of the falling block, so it would completely match the color of background. In other words, the falling block must be visible for your healthy eye and almost (better completely) unvisible for your lazy eye</li> 
-		    <li>Adjust the color of the 'ground blocks' in the same manner, so it would be visible for your lazy eye and almost (better completely) invisible for your healthy eye</li>
-		    <li>After you completed adjusting process, you are able to save color settings with 'save' button. Next time you enter the game, the color settings will be loaded automatically</li>
-	    </ol>
-
-	    <h4 id="AS">Board size setup:</h4>
-	    <ol>
-		 <li>Click 'settings' button, you should see settings menu open</li>
-		 <li>Scroll down to 'Column count' and 'Row count' inputs, here you can put desired number of rows and column</li>
-		 <li>Remember: game will always try to fit height of the board to the screen, so too many rows leads to very small grid size</li>
-		 <li>Click 'set' to start new game, these settings won't be saved, because wrong setup can lead to unpleasant image</li>
-		 <li>Play with this settings until you find the most suitable for your needs</li>
-	    </ol>
-
-	    <h4>Keyboard controls:</h4>
-	    <ol>
-		<li>UP arrow - rotate</li>
-		<li>DOWN, LEFT, RIGHT arrow keys - basic movements</li>
-		<li>SPACE - fire down current shape</li>
-		<li>press 'p' for pause</li>
-		<li>press 'g' for grid</li>
-	    </ol>
-
-	    <h2>Thanks</h2>
-	    Color picker buttons were implemented via amazing and easy to use js-library <a href='http://www.jscolor.com' target='_blank'>jscolor</a>. Fonts were taken from google <a href="https://fonts.google.com/about" target='_blank'>webfonts</a> project, font names are: 'Roboto Mono' by Christian Robertson and 'Press Start 2P' by CodeMan38.
-	    
-	    <h2>To do</h2>
-	    <ol>
-		<li>Mobile devices are poorly supported, sorry. I don't have much time to fix this in a near future</li>
-		<li>Any ideas, found bugs <a href="https://github.com/leblocks/leblocks.github.io" target="_blank">here</a>
-	    </ol>
-
-
-	    <h2>Support me:</h2>
-	    <h4>Paypal</h4>
-	    Send me a dollar via <a href="https://paypal.me/lazyeyeblocks" target='_blank'>paypal</a>
-
-	</div>
-
-	<section>
-	    <center>
-		<ul id='stats'>
-		</ul>
-	    </center>
-
-	</section>
-
-
+<h4>General info</h4>
+<ul>
+    <li>It is recommended (check this with your eye doctor) to play this game from 20 to 60 minutes a day in order to
+        achieve some noticeable effect. It is possible to split this time into two or three sessions a day</li>
+    <li>Don't forget to rest and give your brain time to adapt</li>
+    <li>It is easier to start with a smaller screen first. The number of rows and columns of game field is adjustable,
+        so you can play on various kinds of screens</li>
+    <li>If you feel it is too easy or too hard for you, you can try switching colors between your healthy and your lazy
+        eye</li>
+</ul>
     </body>
-
 </html>
