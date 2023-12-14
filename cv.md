@@ -1,5 +1,3 @@
-# Sasha Gurevich
-
 *Tel.* +972(58)511-19-39 *Email*: a.f.gurevich@gmail.com *Location*: Ramat Gan.
 
 ## Profiles on social networks:
@@ -12,7 +10,8 @@
 
 *   **Back-end developer** - [Quali](https://www.quali.com/)\
     October 2021 - Current time.\
-    Development and maintenance of _[Torque](https://www.quali.com/torque/)_ product.
+    * Contributed to the migration of a intricate solution to the Linux operating system.
+    * Repeatedly provided MVP solutions within a compressed timeline for the purpose of showcasing demonstrations.
     * Packaged legacy component in a docker container, which reduced development environment setup from 2 hours to 10 minutes.
 
     **Tech stack:** c#, dotnet core, python, mongodb, postgres, rabbitmq, docker, kubernetes, terraform, git.
