@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## About me
-I'm a backend developer with a strong focus on open-source tools. I mostly work from the terminal, utilizing its tools for about 90% of my tasks. My experience in QA and QA automation provides me with a unique perspective. 
+I'm a backend developer with a strong focus on open-source tools. I mostly work from the terminal, utilizing its tools for about 90% of my tasks.
 I'm dedicated to keeping code bases clean and consistent, following the belief that the best code is often the code that's been wisely deleted.
 
 * * *

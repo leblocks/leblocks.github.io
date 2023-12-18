@@ -10,9 +10,9 @@
 
 *   **Back-end developer** - [Quali](https://www.quali.com/)\
     October 2021 - Current time.\
-    * Contributed to the migration of a intricate solution to the Linux operating system.
-    * Repeatedly provided MVP solutions within a compressed timeline for the purpose of showcasing demonstrations.
     * Packaged legacy component in a docker container, which reduced development environment setup from 2 hours to 10 minutes.
+    * Repeatedly provided MVP solutions within a compressed timeline for the purpose of showcasing demonstrations.
+    * Contributed to the migration of a intricate solution to the Linux operating system.
 
     **Tech stack:** c#, dotnet core, python, mongodb, postgres, rabbitmq, docker, kubernetes, terraform, git.
 
