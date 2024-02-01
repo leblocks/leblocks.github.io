@@ -16,3 +16,5 @@ _[cv](./cv.html)_, _[linkedIn](https://www.linkedin.com/in/alexander-gurevich-69
 * _[renverso](https://leblocks.github.io/renverso/)_ this puzzle game, serving as a beneficial exercise for individuals with lazy eye conditions, challenges players to align every tile color with the background, emphasizing both cognitive engagement and visual coordination. [Repo](https://github.com/leblocks/renverso).
 
 * _[dotfiles](https://github.com/leblocks/dotfiles)_ my PowerShell scripts for configuration and environment setup enable cross-platform environment establishment.
+
+*  _[Wath-Files](https://gist.github.com/leblocks/e239b36a0a8e0164846b46d37e04c827)_ powershell core cmdlet, allows to tail multiple files simultaneosly.
