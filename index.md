@@ -8,7 +8,7 @@ I'm dedicated to keeping code bases clean and consistent, following the belief t
 
 * * *
 
-_[linkedIn](https://www.linkedin.com/in/alexander-gurevich-6944a2162/)_, _[stackoverflow](https://stackoverflow.com/users/6482931/monsieur-merso)_
+_[linkedIn](https://www.linkedin.com/in/alexander-gurevich-6944a2162/)_, _[stackoverflow](https://stackoverflow.com/users/6482931/monsieur-merso)_, _[cv](https://docs.google.com/document/d/e/2PACX-1vRl2wJbKtvQATNbgvxZvt03tPdlCrdqnztSZkZroazmgHQzEhlE62XeESyDPW1YWDhccPPYgYVDZRHZ/pub)_
 
 ## My projects
 * _[lazy-eye-blocks](https://leblocks.github.io/lazy-eye-blocks/)_ this is a Tetris game implementation designed as an exercise specifically tailored for individuals with lazy eye condition. [Repo](https://github.com/leblocks/lazy-eye-blocks).
