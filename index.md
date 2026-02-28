@@ -13,6 +13,9 @@ _[linkedIn](https://www.linkedin.com/in/alexander-gurevich-6944a2162/)_, _[stack
 ## My projects
 * _[hopcsharp.nvim](https://github.com/leblocks/hopcsharp.nvim)_ neovim plugin that utilizes tree-sitter and sqlite to provide better code navigation experiences for c# projects
 
+* _[toggle.nvim](https://github.com/leblocks/toggle.nvim)_ neovim plugin for comfortable toggling of common words,
+supports chains of toggle like _public_ -> _private_ -> _protected_
+
 * _[lazy-eye-blocks](https://leblocks.github.io/lazy-eye-blocks/)_ this is a Tetris game implementation designed as an exercise specifically tailored for individuals with lazy eye condition. [Repo](https://github.com/leblocks/lazy-eye-blocks).
 
 * _[renverso](https://leblocks.github.io/renverso/)_ this puzzle game, serving as a beneficial exercise for individuals with lazy eye conditions, challenges players to align every tile color with the background, emphasizing both cognitive engagement and visual coordination. [Repo](https://github.com/leblocks/renverso).
