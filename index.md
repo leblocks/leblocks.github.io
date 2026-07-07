@@ -3,8 +3,8 @@ layout: default
 ---
 
 ## About me
-I'm a backend developer with a strong focus on open-source tools. I mostly work from the terminal, utilizing its tools for about 90% of my tasks.
-I'm dedicated to keeping code bases clean and consistent, following the belief that the best code is often the code that's been wisely deleted.
+I’m a backend developer who builds with a minimalist mindset and an open-source focus.
+
 
 * * *
 
@@ -12,19 +12,20 @@ _[linkedIn](https://www.linkedin.com/in/alexander-gurevich-6944a2162/)_, _[stack
 
 ## My projects
 
-* _[hopcsharp.nvim](https://github.com/leblocks/hopcsharp.nvim)_ neovim plugin that utilizes tree-sitter and sqlite to provide better code navigation experiences for c# projects
+* _[lazy-eye-blocks](https://leblocks.github.io/lazy-eye-blocks/)_ Tetris, re-engineered as a visual therapy exercise to support individuals training a lazy eye (amblyopia). [Repo](https://github.com/leblocks/lazy-eye-blocks).
 
-* _[toggle.nvim](https://github.com/leblocks/toggle.nvim)_ neovim plugin for comfortable toggling of common words,
+* _[renverso](https://leblocks.github.io/renverso/)_ This puzzle game, serving as a beneficial exercise for individuals with lazy eye conditions, challenges players to align every tile color with the background, emphasizing both cognitive engagement and visual coordination. [Repo](https://github.com/leblocks/renverso).
+
+* _[hopcsharp.nvim](https://github.com/leblocks/hopcsharp.nvim)_ A Neovim plugin leveraging Tree-sitter and SQLite for lightning-fast code navigation in C# projects.
+
+* _[toggle.nvim](https://github.com/leblocks/toggle.nvim)_ A Neovim plugin for comfortable toggling of common words,
 supports chains of toggle like _public_ -> _private_ -> _protected_
 
-* _[dotfiles](https://github.com/leblocks/dotfiles)_ my PowerShell scripts for configuration and environment setup enable cross-platform environment setup.
+* _[dotfiles](https://github.com/leblocks/dotfiles)_ My cross-platform PowerShell environment setup and configuration scripts.
 
-* _[lazy-eye-blocks](https://leblocks.github.io/lazy-eye-blocks/)_ this is a Tetris game implementation designed as an exercise specifically tailored for individuals with lazy eye condition. [Repo](https://github.com/leblocks/lazy-eye-blocks).
-
-* _[renverso](https://leblocks.github.io/renverso/)_ this puzzle game, serving as a beneficial exercise for individuals with lazy eye conditions, challenges players to align every tile color with the background, emphasizing both cognitive engagement and visual coordination. [Repo](https://github.com/leblocks/renverso).
 
 ## Gist's
 
-*  _[Wath-Files](https://gist.github.com/leblocks/e239b36a0a8e0164846b46d37e04c827)_ powershell core cmdlet, allows to tail multiple files simultaneosly.
+*  _[Watch-Files](https://gist.github.com/leblocks/e239b36a0a8e0164846b46d37e04c827)_ powershell core cmdlet, allows you to tail multiple files simultaneously.
 
 * _[powershell-bootstrap.sh](https://gist.github.com/leblocks/0ceba56b9c12ba32629d04acf139fc4a)_ simple shell script to bootstrap powershell on linux, requires _curl_ and _tar_
